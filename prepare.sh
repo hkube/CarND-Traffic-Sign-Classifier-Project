@@ -5,4 +5,7 @@ mkdir traffic-signs-data
 cd traffic-signs-data
 unzip -x ../traffic-signs-data.zip
 cd ..
+source activate carnd-term1
+git config user.email="harald.kube@gmx.de"
+git config user.name="Harald Kube"
 
