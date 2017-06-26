@@ -6,6 +6,9 @@ cd traffic-signs-data
 unzip -x ../traffic-signs-data.zip
 cd ..
 source activate carnd-term1
-git config user.email="harald.kube@gmx.de"
-git config user.name="Harald Kube"
-
+git config --global --add alias.tree "log --decorate --oneline"
+git config --global --add alias.st status
+git config --global --add alias.ci commit
+git config --global --add alias.co checkout
+git config --global --add user.email "harald.kube@gmx.de"
+git config --global --add user.name  "Harald Kube"
